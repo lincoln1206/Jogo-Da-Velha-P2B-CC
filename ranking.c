@@ -50,6 +50,9 @@ void ranking()
 		    	
 			}
 			
+			free(ler);
+			ler=NULL;
+			
 			printf("\nDigite qualquer tecla \npara retornar ao menu...");
 			getch();
 			system("cls");
