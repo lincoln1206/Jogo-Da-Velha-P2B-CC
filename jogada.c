@@ -7,7 +7,7 @@ void jogada()
 	srand(time(NULL));
 	inM();
 	l=0;
-	p=9;
+	p=14;
 	while(l<=9)
     {
         jogador();

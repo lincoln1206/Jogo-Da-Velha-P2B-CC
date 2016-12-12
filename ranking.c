@@ -46,7 +46,7 @@ void ranking()
 			for(i=0;i<qtd_reg;i++)
 			{
 				fread(ler+i, sizeof(ranking_struct) , 1, arq);
-				printf("%s - %d pontos\n", ler[i].nome,ler[i].pontos+1 );
+				printf("%s - %d pontos\n", ler[i].nome,ler[i].pontos );
 		    	
 			}
 			
