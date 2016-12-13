@@ -9,13 +9,13 @@ typedef struct{
 	
 void ranking()
 {
-	FILE* arq = fopen("ranking.txt", "rb");
+	FILE* arq = fopen("ranking.bin", "rb");
 	ranking_struct data , add, *ler=NULL;
 	int i, qtd_reg=0;
 	
 	if(opcao==1||opcao==2)
 	{
-		FILE* salvar = fopen("ranking.txt", "a+b");
+		FILE* salvar = fopen("ranking.bin", "a+b");
 		printf("DIGITE SEU NOME: ");
 	    scanf("%s", &(data.nome));
 	    data.pontos=p;
